@@ -50,7 +50,7 @@ export const Projects = () => {
                                     onMouseLeave={() => !isMobile && setActiveProject(null)}
                                     onClick={() => isMobile && setActiveProject(activeProject === project ? null : project)}
                                 >
-                                    <a href={project.url} className="text-white hover:underline text-base sm:text-lg font-semibold">
+                                    <a href={project.url} target="_blank" className="text-white hover:underline text-base sm:text-lg font-semibold">
                                         {project.name}
                                     </a>
                                     <p className="mt-1 text-white text-sm sm:text-base">{project.description}</p>
