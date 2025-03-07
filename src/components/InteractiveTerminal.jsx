@@ -60,12 +60,12 @@ export const InteractiveTerminal = () => {
     };
     return (
         <section id="interactive-section" className="mt-8 w-full p-6 rounded-lg bg-black border border-green-500">
-            <h2 className="text-2xl font-bold">➜ ~/interactive</h2>
+            <h2 className="text-xl sm:text-2xl font-bold">➜ ~/interactive</h2>
             <p className="text-sm text-gray-400 mt-1">Type 'help' for available commands</p>
             <div className="mt-2 text-lg">
                 {history.map((item, i) => (
                     <div key={i} className="mb-2">
-                        <p className="text-green-400">➜ ~ $ {item.command}</p>
+                        <p className="text-green-400">➜ $ {item.command}</p>
                         <p className="text-white">
                             {item.response.split('\n').map((line, lineIndex) => (
                                 <span key={lineIndex}>
@@ -84,7 +84,7 @@ export const InteractiveTerminal = () => {
                 {pomodoroActive && <Pomodoro time={pomodoroTime} />}
 
                 <form onSubmit={handleCommand} className="flex mt-2">
-                    <span className="text-green-400">➜ ~ $</span>
+                    <span className="text-green-400">➜ $</span>
                     <input
                         ref={inputRef}
                         type="text"

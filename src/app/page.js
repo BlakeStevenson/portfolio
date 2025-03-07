@@ -16,9 +16,10 @@ const Portfolio = () => {
           </div>
 
           {/* Responsive ASCII art logo - hidden on small screens, visible on medium+ */}
-          <div className="hidden md:block">
-            <pre className="text-green-500 text-xs">
-              {`
+          <div className="mb-5 border-gray-600 border-b-1">
+            <div className="hidden md:block">
+              <pre className="text-green-500 text-xs">
+                {`
   ____  _       _          ____  _                                       
  | __ )| | __ _| | _____  / ___|| |_ _____   _____ _ __  ___  ___  _ __  
  |  _ \\| |/ _\` | |/ / _ \\ \\___ \\| __/ _ \\ \\ / / _ \\\ '_ \\/ __|/ _ \\| '_ \\ 
@@ -28,13 +29,13 @@ const Portfolio = () => {
 
  Terminal v1.0.0 - Welcome
             `}
-            </pre>
-          </div>
+              </pre>
+            </div>
 
-          {/* Alternative logo for small screens */}
-          <div className="md:hidden">
-            <pre className="text-green-500 text-xs text-center my-2">
-              {`
+            {/* Alternative logo for small screens */}
+            <div className="md:hidden">
+              <pre className="text-green-500 text-xs text-center my-2">
+                {`
   ____  _       _        
  | __ )| | __ _| | _____ 
  |  _ \\| |/ _\` | |/ / _ \\
@@ -42,16 +43,17 @@ const Portfolio = () => {
  |____/|_|\\__,_|_|\\_\\___|
                          
      `}
-            </pre>
-            <div className="text-center text-green-500 text-xs mb-2">
-              Terminal v1.0.0 - Welcome
+              </pre>
+              <div className="text-center text-green-500 text-xs mb-2">
+                Terminal v1.0.0 - Welcome
+              </div>
             </div>
           </div>
 
           {/* Introduction */}
-          <h2 className="text-xl sm:text-2xl font-bold">➜ cd /home/blake_stevenson</h2>
-          <p className="mt-2 text-base sm:text-lg flex items-center">
-            <span>$&nbsp;</span>
+          <h2 className="text-xl sm:text-2xl font-bold">➜ /home/blake_stevenson</h2>
+          <p className="mt-2 text-base sm:text-lg flex items-center text-green-400">
+            <span>➜ $&nbsp;</span>
             <TypeWriter text="whoami" speed={80} />
           </p>
           <p className="mt-2 text-base sm:text-lg">Web Developer crafting clean and efficient digital experiences.</p>
@@ -70,9 +72,9 @@ const Portfolio = () => {
         {/* About section */}
         <section id="about-section" className="mt-4 sm:mt-8 w-full p-3 sm:p-6 rounded-lg bg-black border border-green-500">
           <h2 className="text-xl sm:text-2xl font-bold">➜ ~/about</h2>
-          <p className="mt-2 text-base sm:text-lg flex items-center">
-            <span>$&nbsp;cat&nbsp;</span>
-            <TypeWriter text="about_me.txt" speed={80} />
+          <p className="mt-2 text-base sm:text-lg flex items-center text-green-400">
+            <span>➜ $&nbsp;</span>
+            <TypeWriter text="cat about_me.txt" speed={80} />
           </p>
           <p className="mt-2 text-base sm:text-lg leading-loose">
             Writing code that speaks for itself.
@@ -84,8 +86,8 @@ const Portfolio = () => {
         {/* Skills section */}
         <section id="skills-section" className="mt-4 sm:mt-8 w-full p-3 sm:p-6 rounded-lg bg-black border border-green-500">
           <h2 className="text-xl sm:text-2xl font-bold">➜ ~/skills</h2>
-          <p className="mt-2 text-base sm:text-lg flex items-center">
-            <span>$&nbsp;</span>
+          <p className="mt-2 text-base sm:text-lg flex items-center text-green-400">
+            <span>➜ $&nbsp;</span>
             <TypeWriter text="ls" speed={80} />
           </p>
           <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-5">

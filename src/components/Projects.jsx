@@ -37,10 +37,10 @@ export const Projects = () => {
             {Object.entries(projects).length > 0 ? (
                 Object.entries(projects).map(([category, items]) => (
                     <div key={category} className="mt-4 sm:mt-6">
-                        <h3 className="text-lg sm:text-xl font-semibold flex items-center">
-                            <span>$&nbsp;ls&nbsp;</span>
-                            <TypeWriter text={category + "/"} speed={80} />
-                        </h3>
+                        <p className="mt-2 text-base sm:text-lg flex items-center text-green-400">
+                            <span>➜ $&nbsp;</span>
+                            <TypeWriter text={`ls ${category}/`} speed={80} />
+                        </p>
                         <ul className="mt-2 space-y-3 sm:space-y-4">
                             {items.map((project) => (
                                 <li
