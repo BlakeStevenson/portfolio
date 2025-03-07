@@ -1,0 +1,62 @@
+{
+  "Web": [
+    {
+      "name": "portfolio",
+      "description": "My personal website, built with Next.js and Tailwind. You're here!",
+      "url": "https://github.com/BlakeStevenson/portfolio",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "JavaScript": [
+    {
+      "name": "equation-parser",
+      "description": "Simple and lightweight cross-platform equation parser, native to Deno.",
+      "url": "https://github.com/BlakeStevenson/equation-parser",
+      "technologies": [
+        "Deno"
+      ]
+    },
+    {
+      "name": "populartimes.js",
+      "description": "Find the popular times of a location by scraping Google Maps with Puppeteer.",
+      "url": "https://github.com/BlakeStevenson/populartimes.js",
+      "technologies": [
+        "Puppeteer",
+        "Node.js"
+      ]
+    }
+  ],
+  "Java": [
+    {
+      "name": "PlaceholderWeb",
+      "description": "Spigot plugin to retrieve PlaceholderAPI placeholders using a JSON API.",
+      "url": "https://github.com/BlakeStevenson/PlaceholderWeb",
+      "technologies": [
+        "Spigot",
+        "PlaceholderAPI",
+        "JSON"
+      ]
+    },
+    {
+      "name": "TownyAutoDelete",
+      "description": "A Spigot plugin to automatically delete towns after a period of inactivity.",
+      "url": "https://github.com/BlakeStevenson/TownyAutoDelete",
+      "technologies": [
+        "Spigot",
+        "Towny"
+      ]
+    },
+    {
+      "name": "ShulkerCore",
+      "description": "My first spigot plugin, serving as a core for Minecraft servers.",
+      "url": "https://github.com/BlakeStevenson/ShulkerCore",
+      "technologies": [
+        "Spigot"
+      ]
+    }
+  ]
+}
