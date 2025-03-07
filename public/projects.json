@@ -1,6 +1,17 @@
 {
   "Web": [
     {
+      "name": "kypsh",
+      "description": "A simple URL shortener built with Next.js and SQLite that allows you to add NSFW, trigger, or custom warnings to links.",
+      "url": "https://kyp.sh",
+      "technologies": [
+        "Next.js",
+        "React",
+        "SQLite",
+        "Tailwind CSS"
+      ]
+    },
+    {
       "name": "portfolio",
       "description": "My personal website, built with Next.js and Tailwind. You're here!",
       "url": "https://github.com/BlakeStevenson/portfolio",
